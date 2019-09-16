@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name GiantKnob)(type Legacy)(uri ${KIPRJMOD}/libraries/GiantKnob.lib)(options "")(descr ""))
+  (lib (name GiantKnob-rescue)(type Legacy)(uri ${KIPRJMOD}/GiantKnob-rescue.lib)(options "")(descr ""))
+)
