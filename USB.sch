@@ -340,13 +340,13 @@ Wire Wire Line
 	9450 1250 9450 1350
 Wire Wire Line
 	8500 1250 8500 1350
-Text GLabel 9200 1800 2    50   Input ~ 0
+Text GLabel 9200 1800 2    50   Input ~ 6
 USBDM_AUDIO
-Text GLabel 9200 1650 2    50   Input ~ 0
+Text GLabel 9200 1650 2    50   Input ~ 6
 USBDP_AUDIO
-Text GLabel 9200 2300 2    50   Input ~ 0
+Text GLabel 9200 2300 2    50   Input ~ 6
 USBDM_ATMEGA
-Text GLabel 9200 2150 2    50   Input ~ 0
+Text GLabel 9200 2150 2    50   Input ~ 6
 USBDP_ATMEGA
 Wire Wire Line
 	8950 850  8950 2300
@@ -456,13 +456,13 @@ Connection ~ 1350 1100
 Wire Wire Line
 	1250 1200 1550 1200
 Connection ~ 1250 1200
-Text GLabel 1550 1100 2    50   Input ~ 0
+Text GLabel 1550 1100 2    50   Input ~ 6
 USBDP_UPSTREAM
-Text GLabel 1550 1200 2    50   Input ~ 0
+Text GLabel 1550 1200 2    50   Input ~ 6
 USBDM_UPSTREAM
-Text GLabel 9200 2450 2    50   Input ~ 0
+Text GLabel 9200 2450 2    50   Input ~ 6
 USBDP_UPSTREAM
-Text GLabel 9200 2600 2    50   Input ~ 0
+Text GLabel 9200 2600 2    50   Input ~ 6
 USBDM_UPSTREAM
 Wire Wire Line
 	8950 850  9200 850 
@@ -1251,12 +1251,12 @@ Wire Wire Line
 Connection ~ 4200 4350
 Wire Wire Line
 	4200 4350 4200 4450
-Text GLabel 3400 4150 1    50   Input ~ 0
+Text GLabel 3400 4150 1    50   Input ~ 6
 USBDP_AUDIO
 Wire Wire Line
 	3400 4250 3400 4150
 Connection ~ 3400 4250
-Text GLabel 3300 4150 1    50   Input ~ 0
+Text GLabel 3300 4150 1    50   Input ~ 6
 USBDM_AUDIO
 Wire Wire Line
 	3300 4150 3300 4350

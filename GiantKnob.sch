@@ -132,9 +132,9 @@ Wire Wire Line
 	2100 3700 2000 3700
 Wire Wire Line
 	2100 3800 2000 3800
-Text GLabel 2000 3700 0    50   Input ~ 0
+Text GLabel 2000 3700 0    50   Input ~ 6
 USBDP_ATMEGA
-Text GLabel 2000 3800 0    50   Input ~ 0
+Text GLabel 2000 3800 0    50   Input ~ 6
 USBDM_ATMEGA
 $Comp
 L power:GND #PWR046
@@ -428,12 +428,12 @@ F 3 "" H 650 1600 50  0001 C CNN
 	1    650  1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1650 1250 2    50   Input ~ 0
+Text GLabel 1650 1250 2    50   Input ~ 6
 RESET
 Wire Wire Line
 	1550 1250 1650 1250
 Connection ~ 1550 1250
-Text GLabel 2700 2700 0    50   Input ~ 0
+Text GLabel 2700 2700 0    50   Input ~ 6
 RESET
 Wire Wire Line
 	2700 2700 2800 2700
@@ -463,13 +463,13 @@ Wire Wire Line
 	4050 1050 4050 1150
 Wire Wire Line
 	4050 850  4050 750 
-Text GLabel 4050 950  2    50   Input ~ 0
+Text GLabel 4050 950  2    50   Input ~ 6
 MOSI
-Text GLabel 3350 1050 0    50   Input ~ 0
+Text GLabel 3350 1050 0    50   Input ~ 6
 RESET
-Text GLabel 3350 950  0    50   Input ~ 0
+Text GLabel 3350 950  0    50   Input ~ 6
 SCK
-Text GLabel 3350 850  0    50   Input ~ 0
+Text GLabel 3350 850  0    50   Input ~ 6
 MISO
 Wire Wire Line
 	3950 1050 4050 1050
@@ -494,15 +494,15 @@ F 3 "~" H 3650 950 50  0001 C CNN
 	1    3650 950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 4100 3000 2    50   Input ~ 0
+Text GLabel 4100 3000 2    50   Input ~ 6
 MISO
 Wire Wire Line
 	4000 3000 4100 3000
-Text GLabel 4100 2900 2    50   Input ~ 0
+Text GLabel 4100 2900 2    50   Input ~ 6
 MOSI
 Wire Wire Line
 	4000 2900 4100 2900
-Text GLabel 4100 2800 2    50   Input ~ 0
+Text GLabel 4100 2800 2    50   Input ~ 6
 SCK
 Wire Wire Line
 	4000 2800 4100 2800
@@ -730,7 +730,7 @@ F 3 "" H 10700 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10700 2100 10800 2100
-Text GLabel 10800 2100 2    50   Input ~ 0
+Text GLabel 10800 2100 2    50   Input ~ 6
 BTN1
 $Comp
 L GiantKnob-rescue:SW_Push-Switch SW5
@@ -811,7 +811,7 @@ F 3 "" H 10700 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10700 3500 10800 3500
-Text GLabel 10800 3500 2    50   Input ~ 0
+Text GLabel 10800 3500 2    50   Input ~ 6
 BTN2
 $Comp
 L GiantKnob-rescue:SW_Push-Switch SW6
@@ -892,7 +892,7 @@ F 3 "" H 10700 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10700 4900 10800 4900
-Text GLabel 10800 4900 2    50   Input ~ 0
+Text GLabel 10800 4900 2    50   Input ~ 6
 BTN3
 Wire Wire Line
 	9050 1900 9350 1900
@@ -909,7 +909,7 @@ F 3 "" H 9150 2500 50  0001 C CNN
 	1    9150 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 9450 1900 2    50   Input ~ 0
+Text GLabel 9450 1900 2    50   Input ~ 6
 VFO_BTN
 Wire Wire Line
 	9350 1900 9450 1900
@@ -1102,7 +1102,7 @@ Wire Wire Line
 	7800 1900 7700 1900
 Wire Wire Line
 	7000 1650 6900 1650
-Text GLabel 6900 1650 0    50   Input ~ 0
+Text GLabel 6900 1650 0    50   Input ~ 6
 VFO_A
 Wire Wire Line
 	7600 1650 7700 1650
@@ -1121,7 +1121,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 7300 2300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 2300 6900 2300
-Text GLabel 6900 2300 0    50   Input ~ 0
+Text GLabel 6900 2300 0    50   Input ~ 6
 VFO_B
 $Comp
 L power:GND #PWR032
@@ -1239,7 +1239,7 @@ Wire Wire Line
 	7800 3400 7700 3400
 Wire Wire Line
 	7000 3150 6900 3150
-Text GLabel 6900 3150 0    50   Input ~ 0
+Text GLabel 6900 3150 0    50   Input ~ 6
 ENC1_A
 Wire Wire Line
 	7600 3150 7700 3150
@@ -1249,7 +1249,7 @@ Wire Wire Line
 	7700 3800 7600 3800
 Wire Wire Line
 	7000 3800 6900 3800
-Text GLabel 6900 3800 0    50   Input ~ 0
+Text GLabel 6900 3800 0    50   Input ~ 6
 ENC1_B
 $Comp
 L 74xx:74HC14 U1
@@ -1389,7 +1389,7 @@ Wire Wire Line
 	7800 4900 7700 4900
 Wire Wire Line
 	7000 4650 6900 4650
-Text GLabel 6900 4650 0    50   Input ~ 0
+Text GLabel 6900 4650 0    50   Input ~ 6
 ENC2_A
 Wire Wire Line
 	7600 4650 7700 4650
@@ -1399,7 +1399,7 @@ Wire Wire Line
 	7700 5100 7700 5300
 Wire Wire Line
 	7000 5300 6900 5300
-Text GLabel 6900 5300 0    50   Input ~ 0
+Text GLabel 6900 5300 0    50   Input ~ 6
 ENC2_B
 $Comp
 L 74xx:74HC14 U1
@@ -1563,7 +1563,7 @@ F 3 "" H 5300 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 7050 5400 7050
-Text GLabel 5400 7050 2    50   Input ~ 0
+Text GLabel 5400 7050 2    50   Input ~ 6
 PTT
 $Comp
 L power:GND #PWR050
@@ -1682,33 +1682,33 @@ NoConn ~ 4000 5300
 NoConn ~ 4000 5400
 NoConn ~ 4000 5500
 NoConn ~ 4000 5600
-Text GLabel 4100 3900 2    50   Input ~ 0
+Text GLabel 4100 3900 2    50   Input ~ 6
 VFO_A
-Text GLabel 4100 4000 2    50   Input ~ 0
+Text GLabel 4100 4000 2    50   Input ~ 6
 VFO_B
 Wire Wire Line
 	4000 3900 4100 3900
 Wire Wire Line
 	4000 4000 4100 4000
-Text GLabel 4100 4100 2    50   Input ~ 0
+Text GLabel 4100 4100 2    50   Input ~ 6
 BTN1
 Wire Wire Line
 	4000 4100 4100 4100
-Text GLabel 4100 4200 2    50   Input ~ 0
+Text GLabel 4100 4200 2    50   Input ~ 6
 BTN2
 Wire Wire Line
 	4000 4200 4100 4200
-Text GLabel 4100 4300 2    50   Input ~ 0
+Text GLabel 4100 4300 2    50   Input ~ 6
 BTN3
 Wire Wire Line
 	4000 4300 4100 4300
-Text GLabel 4100 4900 2    50   Input ~ 0
+Text GLabel 4100 4900 2    50   Input ~ 6
 VFO_BTN
 Wire Wire Line
 	4000 4900 4100 4900
-Text GLabel 4100 4500 2    50   Input ~ 0
+Text GLabel 4100 4500 2    50   Input ~ 6
 ENC1_A
-Text GLabel 4100 4600 2    50   Input ~ 0
+Text GLabel 4100 4600 2    50   Input ~ 6
 ENC1_B
 Wire Wire Line
 	4000 4500 4100 4500
@@ -1736,9 +1736,9 @@ F 3 "~" H 8750 5260 50  0001 C CNN
 	1    8750 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4100 3600 2    50   Input ~ 0
+Text GLabel 4100 3600 2    50   Input ~ 6
 ENC2_A
-Text GLabel 4100 3700 2    50   Input ~ 0
+Text GLabel 4100 3700 2    50   Input ~ 6
 ENC2_B
 Wire Wire Line
 	4000 3600 4100 3600
@@ -1747,7 +1747,6 @@ Wire Wire Line
 NoConn ~ 4000 3100
 NoConn ~ 4000 3200
 NoConn ~ 4000 3300
-NoConn ~ 4000 3400
 Wire Wire Line
 	5150 4400 5150 4800
 Wire Wire Line
@@ -1761,4 +1760,8 @@ Wire Wire Line
 Connection ~ 5150 4800
 Wire Wire Line
 	5150 4800 5150 4900
+Text GLabel 4100 3400 2    50   Input ~ 6
+PTT
+Wire Wire Line
+	4000 3400 4100 3400
 $EndSCHEMATC
