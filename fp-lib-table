@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Rotary_Encoder)(type KiCad)(uri ${KIPRJMOD}/libraries/Rotary_Encoder.pretty)(options "")(descr ""))
+  (lib (name GiantKnob)(type KiCad)(uri ${KIPRJMOD}/libraries/GiantKnob.pretty)(options "")(descr ""))
+)
