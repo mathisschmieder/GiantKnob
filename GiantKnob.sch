@@ -26,7 +26,7 @@ U 1 1 5DD08C75
 P 3400 4200
 F 0 "U2" H 3400 4250 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 3400 4150 50  0000 C CNN
-F 2 "Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm" H 3400 4200 50  0001 C CIN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3400 4200 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3400 4200 50  0001 C CNN
 	1    3400 4200
 	1    0    0    -1  
@@ -37,7 +37,7 @@ U 1 1 5DD0AED1
 P 2700 4200
 F 0 "C13" H 2609 4154 50  0000 R CNN
 F 1 "1u" H 2609 4245 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603" H 2700 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2700 4200 50  0001 C CNN
 F 3 "~" H 2700 4200 50  0001 C CNN
 	1    2700 4200
 	1    0    0    1   
@@ -65,7 +65,7 @@ U 1 1 5DD0BE3B
 P 2400 4200
 F 0 "C12" H 2308 4154 50  0000 R CNN
 F 1 "100n" H 2308 4245 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603" H 2400 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2400 4200 50  0001 C CNN
 F 3 "~" H 2400 4200 50  0001 C CNN
 	1    2400 4200
 	1    0    0    1   
@@ -112,7 +112,7 @@ U 1 1 5DD0E308
 P 2200 3700
 F 0 "R11" V 2150 3800 39  0000 C CNN
 F 1 "22" V 2200 3700 39  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 2200 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2200 3700 50  0001 C CNN
 F 3 "~" H 2200 3700 50  0001 C CNN
 	1    2200 3700
 	0    1    1    0   
@@ -123,7 +123,7 @@ U 1 1 5DD0F0BF
 P 2200 3800
 F 0 "R12" V 2150 3900 39  0000 C CNN
 F 1 "22" V 2200 3800 39  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 2200 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2200 3800 50  0001 C CNN
 F 3 "~" H 2200 3800 50  0001 C CNN
 	1    2200 3800
 	0    1    1    0   
@@ -164,7 +164,7 @@ U 1 1 5DD3EEC7
 P 1000 3200
 F 0 "Y1" H 1000 3425 50  0000 C CNN
 F 1 "16 MHz" H 1000 3334 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm" H 1000 3200 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 1000 3200 50  0001 C CNN
 F 3 "~" H 1000 3200 50  0001 C CNN
 	1    1000 3200
 	1    0    0    -1  
@@ -175,7 +175,7 @@ U 1 1 5DD3FEE8
 P 1200 3400
 F 0 "C8" H 1292 3446 50  0000 L CNN
 F 1 "22p" H 1292 3355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1200 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1200 3400 50  0001 C CNN
 F 3 "~" H 1200 3400 50  0001 C CNN
 	1    1200 3400
 	1    0    0    -1  
@@ -186,7 +186,7 @@ U 1 1 5DD40E4C
 P 800 3400
 F 0 "C7" H 708 3354 50  0000 R CNN
 F 1 "22p" H 708 3445 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603" H 800 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 800 3400 50  0001 C CNN
 F 3 "~" H 800 3400 50  0001 C CNN
 	1    800  3400
 	1    0    0    1   
@@ -241,7 +241,7 @@ U 1 1 5DD4897A
 P 3500 2200
 F 0 "FB1" H 3600 2246 50  0000 L CNN
 F 1 "MH2029-300Y" H 3600 2155 50  0000 L CNN
-F 2 "Inductors_SMD:L_0805" V 3430 2200 50  0001 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 3430 2200 50  0001 C CNN
 F 3 "~" H 3500 2200 50  0001 C CNN
 	1    3500 2200
 	1    0    0    -1  
@@ -281,7 +281,7 @@ U 1 1 5DD4C3D1
 P 950 1500
 F 0 "SW1" H 950 1785 50  0000 C CNN
 F 1 "Reset" H 950 1694 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_PTS645" H 950 1700 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 950 1700 50  0001 C CNN
 F 3 "~" H 950 1700 50  0001 C CNN
 	1    950  1500
 	1    0    0    -1  
@@ -303,7 +303,7 @@ U 1 1 5DD4D87B
 P 2100 950
 F 0 "C1" H 2192 996 50  0000 L CNN
 F 1 "100n" H 2192 905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2100 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 950 50  0001 C CNN
 F 3 "~" H 2100 950 50  0001 C CNN
 	1    2100 950 
 	1    0    0    -1  
@@ -340,7 +340,7 @@ U 1 1 5DD4EED2
 P 2500 950
 F 0 "C2" H 2592 996 50  0000 L CNN
 F 1 "100n" H 2592 905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2500 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2500 950 50  0001 C CNN
 F 3 "~" H 2500 950 50  0001 C CNN
 	1    2500 950 
 	1    0    0    -1  
@@ -366,7 +366,7 @@ U 1 1 5DD50522
 P 1550 1050
 F 0 "R2" H 1609 1096 50  0000 L CNN
 F 1 "10k" H 1609 1005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 1550 1050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1550 1050 50  0001 C CNN
 F 3 "~" H 1550 1050 50  0001 C CNN
 	1    1550 1050
 	1    0    0    -1  
@@ -390,7 +390,7 @@ U 1 1 5DD52026
 P 1350 1050
 F 0 "D2" H 1300 1150 50  0000 L CNN
 F 1 "CD1206-S01575" H 1100 950 50  0000 L CNN
-F 2 "Diodes_SMD:D_1206" V 1350 1050 50  0001 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" V 1350 1050 50  0001 C CNN
 F 3 "~" V 1350 1050 50  0001 C CNN
 	1    1350 1050
 	0    1    1    0   
@@ -489,7 +489,7 @@ U 1 1 5DD60B8E
 P 3650 950
 F 0 "J1" H 3700 1267 50  0000 C CNN
 F 1 "ICSP" H 3700 1176 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD" H 3650 950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 3650 950 50  0001 C CNN
 F 3 "~" H 3650 950 50  0001 C CNN
 	1    3650 950 
 	1    0    0    -1  
@@ -507,79 +507,16 @@ SCK
 Wire Wire Line
 	4000 2800 4100 2800
 $Comp
-L GiantKnob-rescue:LED_Small-Device D3
-U 1 1 5DDA27B0
-P 4500 2700
-F 0 "D3" H 4500 2495 50  0000 C CNN
-F 1 "RX" H 4500 2586 50  0000 C CNN
-F 2 "LEDs:LED_0805" V 4500 2700 50  0001 C CNN
-F 3 "~" V 4500 2700 50  0001 C CNN
-	1    4500 2700
-	-1   0    0    1   
-$EndComp
-$Comp
-L GiantKnob-rescue:LED_Small-Device D4
-U 1 1 5DDA37F8
-P 4950 4400
-F 0 "D4" H 4950 4650 50  0000 C CNN
-F 1 "TX" H 4950 4550 50  0000 C CNN
-F 2 "LEDs:LED_0805" V 4950 4400 50  0001 C CNN
-F 3 "~" V 4950 4400 50  0001 C CNN
-	1    4950 4400
-	-1   0    0    1   
-$EndComp
-$Comp
 L GiantKnob-rescue:LED_Small-Device D1
 U 1 1 5DDA3DAB
 P 5000 850
 F 0 "D1" H 5000 645 50  0000 C CNN
 F 1 "ON" H 5000 736 50  0000 C CNN
-F 2 "LEDs:LED_0805" V 5000 850 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 5000 850 50  0001 C CNN
 F 3 "~" V 5000 850 50  0001 C CNN
 	1    5000 850 
 	-1   0    0    1   
 $EndComp
-$Comp
-L GiantKnob-rescue:R_Small-Device R7
-U 1 1 5DDA455F
-P 4200 2700
-F 0 "R7" V 4004 2700 50  0000 C CNN
-F 1 "1k" V 4095 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 4200 2700 50  0001 C CNN
-F 3 "~" H 4200 2700 50  0001 C CNN
-	1    4200 2700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4300 2700 4400 2700
-$Comp
-L GiantKnob-rescue:R_Small-Device R13
-U 1 1 5DDA6246
-P 4650 4400
-F 0 "R13" V 4550 4400 50  0000 C CNN
-F 1 "1k" V 4650 4400 39  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 4650 4400 50  0001 C CNN
-F 3 "~" H 4650 4400 50  0001 C CNN
-	1    4650 4400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4000 2700 4100 2700
-$Comp
-L power:GND #PWR023
-U 1 1 5DDABEDD
-P 4700 2800
-F 0 "#PWR023" H 4700 2550 50  0001 C CNN
-F 1 "GND" H 4705 2627 50  0000 C CNN
-F 2 "" H 4700 2800 50  0001 C CNN
-F 3 "" H 4700 2800 50  0001 C CNN
-	1    4700 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 2700 4700 2700
-Wire Wire Line
-	4700 2700 4700 2800
 $Comp
 L power:GND #PWR040
 U 1 1 5DDB1F61
@@ -591,15 +528,13 @@ F 3 "" H 5150 4900 50  0001 C CNN
 	1    5150 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 4400 5150 4400
 $Comp
 L GiantKnob-rescue:R_Small-Device R1
 U 1 1 5DDB42D6
 P 4700 850
 F 0 "R1" V 4504 850 50  0000 C CNN
 F 1 "1k" V 4595 850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 4700 850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4700 850 50  0001 C CNN
 F 3 "~" H 4700 850 50  0001 C CNN
 	1    4700 850 
 	0    1    1    0   
@@ -642,7 +577,7 @@ U 1 1 5DDC0B56
 P 4650 4800
 F 0 "R17" V 4550 4800 50  0000 C CNN
 F 1 "10k" V 4650 4800 39  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 4650 4800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4650 4800 50  0001 C CNN
 F 3 "~" H 4650 4800 50  0001 C CNN
 	1    4650 4800
 	0    1    1    0   
@@ -653,18 +588,18 @@ U 1 1 5D7FCCB8
 P 10400 2100
 F 0 "SW3" H 10400 2385 50  0000 C CNN
 F 1 "BTN1" H 10400 2294 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH-12mm" H 10400 2300 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 10400 2300 50  0001 C CNN
 F 3 "" H 10400 2300 50  0001 C CNN
 	1    10400 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R6
+L GiantKnob-rescue:R_Small-device R6
 U 1 1 5D7FD447
 P 10700 1900
 F 0 "R6" H 10759 1946 50  0000 L CNN
 F 1 "10k" H 10759 1855 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 10700 1900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10700 1900 50  0001 C CNN
 F 3 "~" H 10700 1900 50  0001 C CNN
 	1    10700 1900
 	1    0    0    -1  
@@ -674,12 +609,12 @@ Wire Wire Line
 Wire Wire Line
 	10700 2100 10700 2000
 $Comp
-L device:C_Small C6
+L GiantKnob-rescue:C_Small-device C6
 U 1 1 5D7FFCA7
 P 10700 2300
 F 0 "C6" H 10792 2346 50  0000 L CNN
 F 1 "1p" H 10792 2255 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10700 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10700 2300 50  0001 C CNN
 F 3 "~" H 10700 2300 50  0001 C CNN
 	1    10700 2300
 	1    0    0    -1  
@@ -738,18 +673,18 @@ U 1 1 5D80EC3A
 P 10400 3500
 F 0 "SW5" H 10400 3785 50  0000 C CNN
 F 1 "BTN2" H 10400 3694 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH-12mm" H 10400 3700 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 10400 3700 50  0001 C CNN
 F 3 "" H 10400 3700 50  0001 C CNN
 	1    10400 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R10
+L GiantKnob-rescue:R_Small-device R10
 U 1 1 5D80EC44
 P 10700 3300
 F 0 "R10" H 10759 3346 50  0000 L CNN
 F 1 "10k" H 10759 3255 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 10700 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10700 3300 50  0001 C CNN
 F 3 "~" H 10700 3300 50  0001 C CNN
 	1    10700 3300
 	1    0    0    -1  
@@ -759,12 +694,12 @@ Wire Wire Line
 Wire Wire Line
 	10700 3500 10700 3400
 $Comp
-L device:C_Small C9
+L GiantKnob-rescue:C_Small-device C9
 U 1 1 5D80EC50
 P 10700 3700
 F 0 "C9" H 10792 3746 50  0000 L CNN
 F 1 "1p" H 10792 3655 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10700 3700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10700 3700 50  0001 C CNN
 F 3 "~" H 10700 3700 50  0001 C CNN
 	1    10700 3700
 	1    0    0    -1  
@@ -819,18 +754,18 @@ U 1 1 5D812F55
 P 10400 4900
 F 0 "SW6" H 10400 5185 50  0000 C CNN
 F 1 "BTN3" H 10400 5094 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH-12mm" H 10400 5100 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH-12mm" H 10400 5100 50  0001 C CNN
 F 3 "" H 10400 5100 50  0001 C CNN
 	1    10400 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R16
+L GiantKnob-rescue:R_Small-device R16
 U 1 1 5D812F5F
 P 10700 4700
 F 0 "R16" H 10759 4746 50  0000 L CNN
 F 1 "10k" H 10759 4655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 10700 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10700 4700 50  0001 C CNN
 F 3 "~" H 10700 4700 50  0001 C CNN
 	1    10700 4700
 	1    0    0    -1  
@@ -840,12 +775,12 @@ Wire Wire Line
 Wire Wire Line
 	10700 4900 10700 4800
 $Comp
-L device:C_Small C14
+L GiantKnob-rescue:C_Small-device C14
 U 1 1 5D812F6B
 P 10700 5100
 F 0 "C14" H 10792 5146 50  0000 L CNN
 F 1 "1p" H 10792 5055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10700 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10700 5100 50  0001 C CNN
 F 3 "~" H 10700 5100 50  0001 C CNN
 	1    10700 5100
 	1    0    0    -1  
@@ -941,12 +876,12 @@ F 3 "" H 9350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C3
+L GiantKnob-rescue:C_Small-device C3
 U 1 1 5D827F45
 P 9350 2100
 F 0 "C3" H 9442 2146 50  0000 L CNN
 F 1 "1p" H 9442 2055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9350 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9350 2100 50  0001 C CNN
 F 3 "~" H 9350 2100 50  0001 C CNN
 	1    9350 2100
 	1    0    0    -1  
@@ -954,18 +889,18 @@ $EndComp
 Wire Wire Line
 	9350 1900 9350 1800
 $Comp
-L device:R_Small R5
+L GiantKnob-rescue:R_Small-device R5
 U 1 1 5D827F39
 P 9350 1700
 F 0 "R5" H 9409 1746 50  0000 L CNN
 F 1 "10k" H 9409 1655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 9350 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 9350 1700 50  0001 C CNN
 F 3 "~" H 9350 1700 50  0001 C CNN
 	1    9350 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Rotary_Encoder_Switch SW2
+L GiantKnob-rescue:Rotary_Encoder_Switch-device SW2
 U 1 1 5D8271F4
 P 8750 2000
 F 0 "SW2" H 8750 2367 50  0000 C CNN
@@ -987,12 +922,12 @@ F 3 "" H 8350 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C5
+L GiantKnob-rescue:C_Small-device C5
 U 1 1 5D88A8EF
 P 8100 2300
 F 0 "C5" H 8192 2346 50  0000 L CNN
 F 1 "47n" H 8192 2255 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8100 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8100 2300 50  0001 C CNN
 F 3 "~" H 8100 2300 50  0001 C CNN
 	1    8100 2300
 	1    0    0    -1  
@@ -1011,12 +946,12 @@ $EndComp
 Wire Wire Line
 	8100 2400 8100 2500
 $Comp
-L device:C_Small C4
+L GiantKnob-rescue:C_Small-device C4
 U 1 1 5D894E32
 P 7800 2300
 F 0 "C4" H 7892 2346 50  0000 L CNN
 F 1 "47n" H 7892 2255 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7800 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7800 2300 50  0001 C CNN
 F 3 "~" H 7800 2300 50  0001 C CNN
 	1    7800 2300
 	1    0    0    -1  
@@ -1037,23 +972,23 @@ Wire Wire Line
 Wire Wire Line
 	7800 2400 7800 2500
 $Comp
-L device:R_Small R4
+L GiantKnob-rescue:R_Small-device R4
 U 1 1 5D89C243
 P 8100 1700
 F 0 "R4" H 8159 1746 50  0000 L CNN
 F 1 "10k" H 8159 1655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 8100 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8100 1700 50  0001 C CNN
 F 3 "~" H 8100 1700 50  0001 C CNN
 	1    8100 1700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R3
+L GiantKnob-rescue:R_Small-device R3
 U 1 1 5D89FEC6
 P 7800 1700
 F 0 "R3" H 7859 1746 50  0000 L CNN
 F 1 "10k" H 7859 1655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 7800 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 1700 50  0001 C CNN
 F 3 "~" H 7800 1700 50  0001 C CNN
 	1    7800 1700
 	1    0    0    -1  
@@ -1093,7 +1028,7 @@ U 1 1 5D8B3953
 P 7300 1650
 F 0 "U1" H 7300 1333 50  0000 C CNN
 F 1 "74HC14" H 7300 1424 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7300 1650 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 1650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 7300 1650 50  0001 C CNN
 	1    7300 1650
 	-1   0    0    1   
@@ -1114,7 +1049,7 @@ U 2 1 5D8CBD53
 P 7300 2300
 F 0 "U1" H 7300 2617 50  0000 C CNN
 F 1 "74HC14" H 7300 2526 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7300 2300 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 2300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 7300 2300 50  0001 C CNN
 	2    7300 2300
 	-1   0    0    -1  
@@ -1135,12 +1070,12 @@ F 3 "" H 8350 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C11
+L GiantKnob-rescue:C_Small-device C11
 U 1 1 5D8DEB7C
 P 8100 3800
 F 0 "C11" H 8192 3846 50  0000 L CNN
 F 1 "47n" H 8192 3755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8100 3800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8100 3800 50  0001 C CNN
 F 3 "~" H 8100 3800 50  0001 C CNN
 	1    8100 3800
 	1    0    0    -1  
@@ -1159,12 +1094,12 @@ $EndComp
 Wire Wire Line
 	8100 3900 8100 4000
 $Comp
-L device:C_Small C10
+L GiantKnob-rescue:C_Small-device C10
 U 1 1 5D8DEB94
 P 7800 3800
 F 0 "C10" H 7892 3846 50  0000 L CNN
 F 1 "47n" H 7892 3755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7800 3800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7800 3800 50  0001 C CNN
 F 3 "~" H 7800 3800 50  0001 C CNN
 	1    7800 3800
 	1    0    0    -1  
@@ -1185,23 +1120,23 @@ Wire Wire Line
 Wire Wire Line
 	7800 3900 7800 4000
 $Comp
-L device:R_Small R9
+L GiantKnob-rescue:R_Small-device R9
 U 1 1 5D8DEBAB
 P 8100 3200
 F 0 "R9" H 8159 3246 50  0000 L CNN
 F 1 "10k" H 8159 3155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 8100 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8100 3200 50  0001 C CNN
 F 3 "~" H 8100 3200 50  0001 C CNN
 	1    8100 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R8
+L GiantKnob-rescue:R_Small-device R8
 U 1 1 5D8DEBB7
 P 7800 3200
 F 0 "R8" H 7859 3246 50  0000 L CNN
 F 1 "10k" H 7859 3155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 7800 3200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 3200 50  0001 C CNN
 F 3 "~" H 7800 3200 50  0001 C CNN
 	1    7800 3200
 	1    0    0    -1  
@@ -1257,7 +1192,7 @@ U 3 1 5D8EBB3D
 P 7300 3150
 F 0 "U1" H 7300 3467 50  0000 C CNN
 F 1 "74HC14" H 7300 3376 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7300 3150 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 3150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 7300 3150 50  0001 C CNN
 	3    7300 3150
 	-1   0    0    -1  
@@ -1268,7 +1203,7 @@ U 4 1 5D8ED11B
 P 7300 3800
 F 0 "U1" H 7300 4117 50  0000 C CNN
 F 1 "74HC14" H 7300 4026 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7300 3800 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 3800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 7300 3800 50  0001 C CNN
 	4    7300 3800
 	-1   0    0    -1  
@@ -1285,12 +1220,12 @@ F 3 "" H 8350 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C16
+L GiantKnob-rescue:C_Small-device C16
 U 1 1 5D8EEAB8
 P 8100 5300
 F 0 "C16" H 8192 5346 50  0000 L CNN
 F 1 "47n" H 8192 5255 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8100 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8100 5300 50  0001 C CNN
 F 3 "~" H 8100 5300 50  0001 C CNN
 	1    8100 5300
 	1    0    0    -1  
@@ -1309,12 +1244,12 @@ $EndComp
 Wire Wire Line
 	8100 5400 8100 5500
 $Comp
-L device:C_Small C15
+L GiantKnob-rescue:C_Small-device C15
 U 1 1 5D8EEAD0
 P 7800 5300
 F 0 "C15" H 7892 5346 50  0000 L CNN
 F 1 "47n" H 7892 5255 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7800 5300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7800 5300 50  0001 C CNN
 F 3 "~" H 7800 5300 50  0001 C CNN
 	1    7800 5300
 	1    0    0    -1  
@@ -1335,23 +1270,23 @@ Wire Wire Line
 Wire Wire Line
 	7800 5400 7800 5500
 $Comp
-L device:R_Small R15
+L GiantKnob-rescue:R_Small-device R15
 U 1 1 5D8EEAE7
 P 8100 4700
 F 0 "R15" H 8159 4746 50  0000 L CNN
 F 1 "10k" H 8159 4655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 8100 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8100 4700 50  0001 C CNN
 F 3 "~" H 8100 4700 50  0001 C CNN
 	1    8100 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R14
+L GiantKnob-rescue:R_Small-device R14
 U 1 1 5D8EEAF3
 P 7800 4700
 F 0 "R14" H 7859 4746 50  0000 L CNN
 F 1 "10k" H 7859 4655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 7800 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 4700 50  0001 C CNN
 F 3 "~" H 7800 4700 50  0001 C CNN
 	1    7800 4700
 	1    0    0    -1  
@@ -1407,7 +1342,7 @@ U 5 1 5D925FCE
 P 7300 4650
 F 0 "U1" H 7300 4967 50  0000 C CNN
 F 1 "74HC14" H 7300 4876 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7300 4650 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 4650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 7300 4650 50  0001 C CNN
 	5    7300 4650
 	-1   0    0    -1  
@@ -1418,7 +1353,7 @@ U 6 1 5D927019
 P 7300 5300
 F 0 "U1" H 7300 5617 50  0000 C CNN
 F 1 "74HC14" H 7300 5526 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7300 5300 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 5300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 7300 5300 50  0001 C CNN
 	6    7300 5300
 	-1   0    0    -1  
@@ -1429,7 +1364,7 @@ U 7 1 5D928923
 P 5950 6850
 F 0 "U1" H 6180 6896 50  0000 L CNN
 F 1 "74HC14" H 6180 6805 50  0000 L CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 5950 6850 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5950 6850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5950 6850 50  0001 C CNN
 	7    5950 6850
 	1    0    0    -1  
@@ -1477,7 +1412,7 @@ U 1 1 5D946A56
 P 6650 7250
 F 0 "C18" H 6742 7296 50  0000 L CNN
 F 1 "100n" H 6742 7205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6650 7250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6650 7250 50  0001 C CNN
 F 3 "~" H 6650 7250 50  0001 C CNN
 	1    6650 7250
 	1    0    0    -1  
@@ -1498,23 +1433,23 @@ Wire Wire Line
 Wire Wire Line
 	6650 7350 6650 7450
 $Comp
-L device:R_Small R18
+L GiantKnob-rescue:R_Small-device R18
 U 1 1 5D96CC9E
 P 5300 6450
 F 0 "R18" H 5359 6496 50  0000 L CNN
 F 1 "1k" H 5359 6405 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 5300 6450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5300 6450 50  0001 C CNN
 F 3 "~" H 5300 6450 50  0001 C CNN
 	1    5300 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C17
+L GiantKnob-rescue:C_Small-device C17
 U 1 1 5D96CCAA
 P 5300 7250
 F 0 "C17" H 5392 7296 50  0000 L CNN
 F 1 "1u" H 5392 7205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5300 7250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 7250 50  0001 C CNN
 F 3 "~" H 5300 7250 50  0001 C CNN
 	1    5300 7250
 	1    0    0    -1  
@@ -1569,7 +1504,7 @@ U 1 1 5D998984
 P 5300 6750
 F 0 "D5" H 5300 6545 50  0000 C CNN
 F 1 "PTT_LED" H 5300 6636 50  0000 C CNN
-F 2 "LEDs:LED_0805" V 5300 6750 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" V 5300 6750 50  0001 C CNN
 F 3 "~" V 5300 6750 50  0001 C CNN
 	1    5300 6750
 	0    -1   -1   0   
@@ -1579,12 +1514,12 @@ Wire Wire Line
 Wire Wire Line
 	5300 6850 5300 7050
 $Comp
-L device:R_Small R19
+L GiantKnob-rescue:R_Small-device R19
 U 1 1 5D9B8930
 P 4800 7050
 F 0 "R19" V 4604 7050 50  0000 C CNN
 F 1 "100" V 4695 7050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 4800 7050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4800 7050 50  0001 C CNN
 F 3 "~" H 4800 7050 50  0001 C CNN
 	1    4800 7050
 	0    1    1    0   
@@ -1595,8 +1530,6 @@ Wire Wire Line
 	7600 2300 7700 2300
 Wire Wire Line
 	7700 2300 7700 2100
-Wire Wire Line
-	7700 2100 7800 2100
 Wire Wire Line
 	8100 1800 8100 2100
 Wire Wire Line
@@ -1614,8 +1547,6 @@ Wire Wire Line
 Connection ~ 8100 2100
 Wire Wire Line
 	8100 2100 8100 2200
-Wire Wire Line
-	8100 2100 7800 2100
 Wire Wire Line
 	8100 3300 8100 3600
 Wire Wire Line
@@ -1656,7 +1587,6 @@ Wire Wire Line
 	10100 4900 10100 5500
 Wire Wire Line
 	10700 5200 10700 5500
-Connection ~ 7800 2100
 Wire Wire Line
 	7800 2100 7800 2200
 NoConn ~ 4000 5100
@@ -1685,10 +1615,8 @@ Text GLabel 4100 4300 2    50   Input ~ 10
 BTN3
 Wire Wire Line
 	4000 4300 4100 4300
-Text GLabel 4100 4900 2    50   Input ~ 10
+Text GLabel 4100 4400 2    50   Input ~ 10
 VFO_BTN
-Wire Wire Line
-	4000 4900 4100 4900
 Text GLabel 4100 4500 2    50   Input ~ 10
 ENC1_A
 Text GLabel 4100 4600 2    50   Input ~ 10
@@ -1698,7 +1626,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4600 4100 4600
 $Comp
-L device:Rotary_Encoder SW4
+L GiantKnob-rescue:Rotary_Encoder-device SW4
 U 1 1 5DBC0367
 P 8750 3500
 F 0 "SW4" H 8980 3546 50  0000 L CNN
@@ -1709,7 +1637,7 @@ F 3 "~" H 8750 3760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Rotary_Encoder SW7
+L GiantKnob-rescue:Rotary_Encoder-device SW7
 U 1 1 5DBE6A70
 P 8750 5000
 F 0 "SW7" H 8980 5046 50  0000 L CNN
@@ -1731,16 +1659,9 @@ NoConn ~ 4000 3100
 NoConn ~ 4000 3200
 NoConn ~ 4000 3300
 Wire Wire Line
-	5150 4400 5150 4800
-Wire Wire Line
-	4000 4400 4550 4400
-Wire Wire Line
 	4000 4800 4550 4800
 Wire Wire Line
-	4750 4400 4850 4400
-Wire Wire Line
 	4750 4800 5150 4800
-Connection ~ 5150 4800
 Wire Wire Line
 	5150 4800 5150 4900
 Text GLabel 4100 3400 2    50   Input ~ 10
@@ -1748,12 +1669,12 @@ PTT
 Wire Wire Line
 	4000 3400 4100 3400
 $Comp
-L device:D_Zener_Small D6
+L GiantKnob-rescue:D_Zener_Small-device D6
 U 1 1 5DC744E2
 P 5000 7250
 F 0 "D6" V 4954 7318 50  0000 L CNN
 F 1 "5V1" V 5045 7318 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" V 5000 7250 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 5000 7250 50  0001 C CNN
 F 3 "~" V 5000 7250 50  0001 C CNN
 	1    5000 7250
 	0    1    1    0   
@@ -1774,7 +1695,7 @@ $EndComp
 Wire Wire Line
 	5000 7350 5000 7450
 $Comp
-L conn:Audio-Jack-3 J6
+L GiantKnob-rescue:Audio-Jack-3-conn J6
 U 1 1 5D84F1F9
 P 3700 7050
 F 0 "J6" H 3678 7375 50  0000 C CNN
@@ -1790,12 +1711,12 @@ Wire Wire Line
 	4900 7050 5000 7050
 Connection ~ 5000 7050
 $Comp
-L conn:Conn_02x02_Odd_Even J2
+L GiantKnob-rescue:Conn_02x02_Odd_Even-conn J2
 U 1 1 5D88168B
 P 4200 6950
 F 0 "J2" H 4250 7167 50  0000 C CNN
 F 1 "PTT_Select" H 4250 7076 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm_SMD" H 4200 6950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 4200 6950 50  0001 C CNN
 F 3 "~" H 4200 6950 50  0001 C CNN
 	1    4200 6950
 	1    0    0    -1  
@@ -1815,4 +1736,8 @@ Wire Wire Line
 	3900 7050 4000 7050
 Wire Wire Line
 	3500 7150 3500 7450
+Wire Wire Line
+	7700 2100 8100 2100
+Wire Wire Line
+	4000 4400 4100 4400
 $EndSCHEMATC
