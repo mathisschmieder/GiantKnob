@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.4)
+    (last_trace_width 0.25)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
     (user_trace_width 0.6)
@@ -62,11 +62,11 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
-    (aux_axis_origin 0 0)
+    (aux_axis_origin 90 130)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
-      (usegerberextensions false)
+      (layerselection 0x010f8_ffffffff)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -88,9 +88,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -378,6 +378,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/libraries/Tactal Switch - SMD (12mmx12mmx7.5mm).stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module GiantKnob:K2-1103SP (layer B.Cu) (tedit 5D81D61A) (tstamp 5D81E0F8)
@@ -424,6 +429,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/libraries/Tactal Switch - SMD (12mmx12mmx7.5mm).stp"
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module GiantKnob:K2-1103SP (layer B.Cu) (tedit 5D81D61A) (tstamp 5D81E0AD)
@@ -466,6 +476,11 @@
     (pad 2 smd rect (at -7.95 -2.5 270) (size 3.9 1.3) (layers B.Cu B.Paste B.Mask)
       (net 13 BTN3))
     (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_PUSH-12mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/libraries/Tactal Switch - SMD (12mmx12mmx7.5mm).stp"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -600,9 +615,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/libraries/EC12E-150.STEP
+      (offset (xyz 0 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
-  (module Rotary_Encoder:RotaryEncoder_Alps_EC12E_Vertical_H20mm (layer B.Cu) (tedit 5D8123A7) (tstamp 5D81D92B)
+  (module Rotary_Encoder:RotaryEncoder_Alps_EC12E_Vertical_H20mm (layer B.Cu) (tedit 5D8123A7) (tstamp 5D845C3F)
     (at 147 84 90)
     (descr "Alps rotary encoder, EC12E..., vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html")
     (tags "rotary encoder")
@@ -653,6 +673,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/libraries/EC12E-150.STEP
+      (offset (xyz 0 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -713,6 +738,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/libraries/EC12E-150.STEP
+      (offset (xyz 0 0 2))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -2804,6 +2834,11 @@
       (net 26 "Net-(C38-Pad2)"))
     (pad 2 smd rect (at 0 -3.9 270) (size 1.5 4) (layers F.Cu F.Paste F.Mask)
       (net 25 "Net-(C37-Pad2)"))
+    (model "${KIPRJMOD}/libraries/KlinkenBuchse v2.step"
+      (offset (xyz -7.1 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module GiantKnob:PJ-320B (layer F.Cu) (tedit 5D81001A) (tstamp 5D8195D9)
@@ -2830,6 +2865,11 @@
       (net 28 "Net-(C39-Pad1)"))
     (pad 2 smd rect (at 0 -3.9 270) (size 1.5 4) (layers F.Cu F.Paste F.Mask)
       (net 49 "Net-(J5-Pad2)"))
+    (model "${KIPRJMOD}/libraries/KlinkenBuchse v2.step"
+      (offset (xyz -7.1 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module GiantKnob:PJ-320B (layer F.Cu) (tedit 5D81001A) (tstamp 5D8195E9)
@@ -2856,6 +2896,11 @@
       (net 1 GND))
     (pad "" np_thru_hole circle (at 4 0 270) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -2 0 270) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
+    (model "${KIPRJMOD}/libraries/KlinkenBuchse v2.step"
+      (offset (xyz -7.1 0 2.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 5D8195FA)
@@ -4588,6 +4633,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/libraries/crystal 8MHz.stp"
+      (offset (xyz 2.5 1.6 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (module Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm (layer F.Cu) (tedit 5A0FD1B2) (tstamp 5D819A65)
@@ -4634,6 +4684,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "${KIPRJMOD}/libraries/crystal 8MHz.stp"
+      (offset (xyz 2.5 1.6 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
   )
 
   (module Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm (layer F.Cu) (tedit 5A0FD1B2) (tstamp 5D819A80)
@@ -4679,6 +4734,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/libraries/crystal 8MHz.stp"
+      (offset (xyz 2.5 1.6 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -5451,7 +5511,7 @@
   (segment (start 116 111.98) (end 127.5 111.98) (width 0.4) (layer F.Cu) (net 113) (status 20))
   (segment (start 108.54 104.52) (end 116 111.98) (width 0.4) (layer F.Cu) (net 113) (status 10))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D84536B) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5D845F3D) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.15)
     (fill yes (arc_segments 32) (thermal_gap 0.3) (thermal_bridge_width 0.3))
@@ -7933,7 +7993,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D845368) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5D845F3A) (hatch edge 0.508)
     (connect_pads (clearance 0.3))
     (min_thickness 0.15)
     (fill yes (arc_segments 32) (thermal_gap 0.3) (thermal_bridge_width 0.3))
